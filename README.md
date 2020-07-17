@@ -25,7 +25,7 @@ To use the USB-UART bridge feature of this demo, the Nexys A7-100T must be conne
 Requirements
 --------------
 * **Nexys A7-100T**:To purchase a Nexys A7-100T, see the [Digilent Store](FIXME)
-* **Vivado 2018.2 Installation**:To set up Vivado, see the [Installing Vivado and Digilent Board Files Tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
+* **Vivado 2020.1 Installation**:To set up Vivado, see the [Installing Vivado and Digilent Board Files Tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
 * **Serial Terminal Emulator Application**: For more information see the [Installing and Using a Terminal Emulator Tutorial](https://reference.digilentinc.com/learn/programmable-logic/tutorials/tera-term).
 * **MicroUSB Cable**
 * **Headphones/Speaker**
@@ -33,13 +33,13 @@ Requirements
 Demo Setup
 --------------
 1. Download and extract the most recent release ZIP archive from this repository's [Releases Page](https://github.com/Digilent/Nexys-A7-100T-GPIO/releases).
-2. Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Nexys-A7-100T-GPIO.xpr".
+2. Open the project in Vivado 2020.1 by double clicking on the included XPR file found at "\<archive extracted location\>/Nexys-A7-100T-GPIO/Nexys-A7-100T-GPIO.xpr".
 3. In the Flow Navigator panel on the left side of the Vivado window, click **Open Hardware Manager**.
 4. Plug the Nexys A7-100T into the computer using a MicroUSB cable.
 5. Open a serial terminal emulator (such as TeraTerm) and connect it to the Nexys A7-100T's serial port, using a baud rate of 9600.
 6. In the green bar at the top of the Vivado window, click **Open target**. Select **Auto connect** from the drop down menu.
 7. In the green bar at the top of the Vivado window, click **Program device**.
-8. In the Program Device Wizard, enter "\<archive extracted location\>vivado_proj/Nexys-A7-100T-GPIO.runs/impl_1/top.bit" into the "Bitstream file" field. Then click **Program**.
+8. In the Program Device Wizard, enter "\<archive extracted location\>/Nexys-A7-100T-GPIO/Nexys-A7-100T-GPIO.runs/impl_1/top.bit" into the "Bitstream file" field. Then click **Program**.
 9. The demo will now be programmed onto the Nexys A7-100T. See the Description section of this README to learn how to interact with this demo.
 
 Next Steps
